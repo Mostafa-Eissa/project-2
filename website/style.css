@@ -1,0 +1,174 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("background.jpg");
+    background-size: cover;
+    font-family: 'Oswald', sans-serif;
+    display: grid;
+    grid-template-columns: repeat(auto-fill , minmax(450px , 1fr));
+    gap: 20px;
+    height: 100vh;
+}
+
+#app {
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.feel{
+    display: flex;
+    flex-direction: column;
+}
+
+.entry {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.container{
+    border: 2px solid #fff;
+    width: 500px;
+    height: 340px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.headline , .title{
+    color: #fff;
+    font-size: 25px;
+}
+
+#entryHolder {
+    color: #fff;
+    display: grid;
+    grid-template-columns: repeat(auto-fill , minmax(150px ,1fr));
+    gap: 20px;
+}
+
+.title {
+    margin: 20px auto;
+}
+
+.allWeatherStyle:hover{
+    margin-right: 20px;
+}
+
+
+/*  Basic Styling To Override Default For Basic HTML Elements */
+label {
+    display: block;
+    font-size: 27px;
+}
+
+input {
+    display: block;
+    height: 60px;
+    width: 400px;
+    background: transparent;
+    border: 2px solid white;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    border-radius: 80px;
+    -webkit-border-radius: 80px;
+    -moz-border-radius: 80px;
+    -ms-border-radius: 80px;
+    -o-border-radius: 80px;
+    padding-left: 20px;
+}
+
+button {
+    width: 400px;
+    height: 100px;
+    background: #3b4a6b;
+    color: #fff;
+    font-size: 26px;
+    font-family: 'Oswald', sans-serif;
+    border: none;
+    box-shadow: 2px 4px 5px #444;
+    cursor: pointer;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    transition: .3s;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -ms-transition: .3s;
+    -o-transition: .3s;
+}
+
+button:hover{
+    background-color: transparent;
+    border: 2px solid white;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+textarea {
+    background: transparent;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    resize: none;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    padding: 10px;
+    border: 2px solid white;
+}
+
+/* Reset style for HTML element on active to have no border*/
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+/* Style for Placeholder Text*/
+::placeholder {
+    /* Firefox, Chrome, Opera */
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+
+}
