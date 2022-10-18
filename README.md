@@ -15,7 +15,7 @@ wheathe app
          d.to run server (npm install);
          e-the file conatain comments to help you;
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------        
-app.js:
+4-app.js:
         A-generateWeatherData : function to genetrat data / contain value of zip /controll get and post to server /update them;
                                   
         B-getWeather: function to get api data;
